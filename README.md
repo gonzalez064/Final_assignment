@@ -8,28 +8,16 @@ This project analyzes the relationship between **income** and **life expectancy 
 
 ## Project Structure
 
-.
-├── data/
-│ ├── life_expectancy.csv
-│ └── rent.csv
-├── notebooks/
-│ └── analysis.ipynb
-├── src/
-│ ├── analysis.py
-├── tests/
-│ └── test_analysis.py
-├── requirements.txt
-└── README.md
+- `data/`: Raw CSV files (`life_expectancy.csv`, `income.csv`)
+- `src/analysis.py`: Functions for data preparation and correlation analysis
+- `notebooks/`: Jupyter Notebook with exploratory analysis and graphs
+- `tests/`: Unit tests using `pytest`
 
 ## Analysis
 
 The dataset includes income and life expectancy data by province and year.
 
 Data cleaning involves replacing commas, handling missing values, and converting strings to floats.
-
-A correlation coefficient of 0.46 was observed when including the year 2020.
-
-When 2020 is excluded (to remove the COVID-19 effect), the correlation increases to 0.52.
 
 ## Testing
 Run unit tests with:
