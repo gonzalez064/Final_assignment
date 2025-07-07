@@ -16,7 +16,6 @@ This project analyzes the relationship between **income** and **life expectancy 
 │ └── analysis.ipynb
 ├── src/
 │ ├── analysis.py
-│ └── utils.py
 ├── tests/
 │ └── test_analysis.py
 ├── requirements.txt
