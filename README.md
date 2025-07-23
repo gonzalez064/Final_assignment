@@ -20,8 +20,7 @@ The dataset includes income and life expectancy data by province and year.
 Data cleaning involves replacing commas, handling missing values, and converting strings to floats.
 
 ## Testing
-Creates a small test dataset with Income and LifeExpectancy values.
-Calls the compute_correlation() function to calculate the correlation between them.
+Creates a small test dataset with Income and LifeExpectancy values & calls the compute_correlation() function to calculate the correlation between them.
 
 ## Results
 
