@@ -11,7 +11,7 @@ This project analyzes the relationship between **income** and **life expectancy 
 - `data/`: Raw CSV files (`life_expectancy.csv`, `income.csv`)
 - `src/analysis.py`: Functions for data preparation and correlation analysis
 - `notebooks/`: Jupyter Notebook with exploratory analysis and graphs
-- `tests/`: Unit tests using `pytest`
+- `tests/`: verify that the correlation function behaves as expected.
 
 ## Analysis
 
