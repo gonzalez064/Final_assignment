@@ -20,12 +20,12 @@ The dataset includes income and life expectancy data by province and year.
 Data cleaning involves replacing commas, handling missing values, and converting strings to floats.
 
 ## Testing
-Run unit tests with:
-pytest tests/
+Creates a small test dataset with Income and LifeExpectancy values.
+Calls the compute_correlation() function to calculate the correlation between them.
 
 ## Results
 
-- Correlation (with 2020): **0.46**
+- Correlation (with 2020): **0.47**
 - Correlation (excluding 2020): **0.52**
 
 ## Conclusion
